@@ -248,7 +248,7 @@ FROM "DimTruck"
 LIMIT 5;
 ```
 
-![03.10-DimTruck](images/03.10-DimTruck.png)
+![03.10-DimTruck](images/10-DimTruck.jpg.png)
 
 ### Load data into the dimension table DimStation
 
@@ -262,7 +262,7 @@ FROM "DimStation"
 LIMIT 5;
 ```
 
-![03.11-DimStation](images/03.11-DimStation.png)
+![03.11-DimStation](images/11-DimStation.jpg.png)
 
 ### Load data into the fact table FactTrips
 
@@ -276,7 +276,7 @@ FROM "FactTrips"
 LIMIT 5;
 ```
 
-![03.12-FactTrips](images/03.12-FactTrips.png)
+![03.12-FactTrips](images/12-FactTrips.jpg.png)
 
 
 ## Exercise 4 - Write aggregation queries and create MQTs
@@ -298,7 +298,7 @@ GROUP BY GROUPING SETS (FT.Stationid, DT.TruckType)
 ORDER BY FT.Stationid, DT.TruckType;
 ```
 
-![04.13-groupingsets](images/04.13-groupingsets.png)
+![04.13-groupingsets](images/13-groupingsets.jpg.png)
 
 ### Create a rollup query
 
@@ -316,7 +316,7 @@ GROUP BY ROLLUP(DD.Year, DS.City, FT.Stationid)
 ORDER BY DD.Year, DS.City, FT.Stationid;
 ```
 
-![04-14-rollup](images/04.14-rollup.png)
+![04-14-rollup](images/14-rollup.jpg.png)
 
 ### Create a cube query
 
@@ -334,7 +334,7 @@ GROUP BY CUBE(DD.Year, DS.City, FT.Stationid)
 ORDER BY DD.Year, DS.City, FT.Stationid;
 ```
 
-![04.15-cube](images/04.15-cube.png)
+![04.15-cube](images/15-cube.jpg.png)
 
 ### Create an MQT
 
@@ -352,7 +352,7 @@ FROM "FactTrips" FT
 GROUP BY DS.City, FT.Stationid, DT.TruckType;
 ```
 
-![04.16-mqt](images/04.16-mqt.png)
+![04.16-mqt](images/16-mv.jpg.png)
 
 Execute the sql statement below to populate the MQT max_waste_stats
 
