@@ -14,8 +14,7 @@ You are a data engineer hired by a solid waste management company. The company c
 
 #### Total waste collected per truck type per station per city 
 
-### Task list
-
+## Task list
 #### Task 1: Design the dimension table MyDimDate 
 
 #### Task 2: Design the dimension table MyDimWaste 
