@@ -117,7 +117,7 @@ CREATE TABLE "MyDimDate" (
 );
 ```
 
-![02.05-MyDimDate](images/02.05-MyDimDate.png)
+![02.05-MyDimDate](images/1-MyDimDate.jpg.png)
 
 ### Create the dimension table MyDimWaste
 
@@ -128,7 +128,7 @@ CREATE TABLE "MyDimWaste" (
 );
 ```
 
-![02.06-MyDimWaste](images/02.06-MyDimWaste.png)
+![02.06-MyDimWaste](images/2-MyDimWaste.jpg.png)
 
 ### Create the dimension table MyDimZone
 
@@ -140,7 +140,7 @@ CREATE TABLE "MyDimZone" (
 );
 ```
 
-![02.07-MyDimZone](images/02.07-MyDimZone.png)
+![02.07-MyDimZone](images/3-MyDimZone.jpg.png)
 
 ### Create the fact table MyFactTrips
 
@@ -157,7 +157,7 @@ CREATE TABLE "MyFactTrips" (
 );
 ```
 
-![02.08-MyFactTrips](images/02.08-MyFactTrips.png)
+![02.08-MyFactTrips](images/4-MyFactTrips.jpg.png)
 
 
 ## Exercise 3 - Load data into the Data Warehouse
