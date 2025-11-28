@@ -234,7 +234,7 @@ FROM "DimDate"
 LIMIT 5;
 ```
 
-![03.09-DimDate](images/03.09-DimDate.png)
+![03.09-DimDate](images/9-DimDate.jpg.png)
 
 ### Load data into the dimension table DimTruck
 
