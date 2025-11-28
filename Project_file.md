@@ -1,7 +1,7 @@
- Data Warehousing
-.
+## Data Warehousing
 
-This assignment has five parts: 
+
+#### This assignment has five parts: 
 
 - [Exercise 1 - Design a Data Warehouse](#exercise-1---design-a-data-warehouse)
     - [Design the dimension table MyDimDate](#design-the-dimension-table-mydimdate)
